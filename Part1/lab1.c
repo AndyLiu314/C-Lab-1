@@ -61,7 +61,7 @@ void part1() {
 
   // Q1: The following line is an example. Feel free to
   // copy and/or modify it as needed for part 1 of this lab.
-  printf("x & x = %i\n %x", x & x, &x);
+  //printf("x & x = %i\n %x", x & x, &x);
 }
 
 // HELPER FUNCTION - fillArray()
@@ -281,6 +281,8 @@ int main(int argc, char *argv[]) {
   switch (atoi(argv[1])) {
   case 1:
     part1();
+    int arr[5];
+    fillArray(arr, 5);
     break;
   case 2:
     part2();
