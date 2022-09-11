@@ -85,6 +85,7 @@ void fillArray(int *array, int len) {
     // "sanity check" to make sure that the line of code
     // above is doing what we intend.
     assert(array[i] == i * 3 + 2);
+    printf("Position:%i Value:%i\n", i, array[i]);
   }
   printf("Done!\n");
 }
